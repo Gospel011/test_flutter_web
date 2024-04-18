@@ -7,6 +7,7 @@ class MyDrawer extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Drawer(
+      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(0)),
       child: SingleChildScrollView(
         child: Column(
           children: [
@@ -19,13 +20,13 @@ class MyDrawer extends StatelessWidget {
             ))),
 
             // nav items
-            _DrawerItem(
-              "Episodes",
-              icon: Icons.playlist_play,
-              onPressed: () {
-                print("Episodes");
-              },
-            ),
+            // _DrawerItem(
+            //   "Episodes",
+            //   icon: Icons.playlist_play,
+            //   onPressed: () {
+            //     print("Episodes");
+            //   },
+            // ),
             _DrawerItem(
               "About",
               icon: Icons.info_outline_rounded,

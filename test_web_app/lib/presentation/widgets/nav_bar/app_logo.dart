@@ -5,6 +5,6 @@ class AppLogo extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Image.asset('assets/logo.png', width: 150, height: 80);
+    return const Text("Extelvo\nEnterprises", style: TextStyle(fontSize: 18));
   }
 }

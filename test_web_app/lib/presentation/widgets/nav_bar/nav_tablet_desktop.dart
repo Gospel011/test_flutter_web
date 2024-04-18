@@ -16,8 +16,8 @@ class NavBarTabletDesktop extends StatelessWidget {
       
         // row with nav items --> Episodes, About
         Row(children: [
-          NavItem("Episodes"),
-          SizedBox(width: 60),
+          // NavItem("Products"),
+          // SizedBox(width: 60),
           NavItem("About")
         ])
       ]),
